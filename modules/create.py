@@ -216,7 +216,7 @@ async def router(e):
             await edit_message(
                 e.chat_id,
                 status.id,
-                f"**✅ Repo Created Successfully!**\n**━━━━━━━━━━━━━━━━**\nYour Repo: [{s['name']}]({s['url']})\n\nYour repi is now live at **github **sever officialy. Share it with anyone — they can use it **independently.**",
+                f"**✅ Repo Created Successfully!**\n**━━━━━━━━━━━━━━━━**\nYour Repo: [{s['name']}]({s['url']})\n\nYour repo is now live at **github **sever officialy. Share it with anyone — they can use it **independently.**",
                 parse_mode="md",
                 buttons=_repo_btn(s["url"]),
                 link_preview=False
