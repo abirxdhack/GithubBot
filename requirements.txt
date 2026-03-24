@@ -1,0 +1,12 @@
+telethon
+motor
+cryptography
+fastapi
+uvicorn[standard]
+uvloop
+python-dotenv
+aiohttp
+starlette
+psutil
+speedtest-cli
+cryptg 
